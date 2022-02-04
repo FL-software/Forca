@@ -82,7 +82,3 @@ function escolherLetra(letra) {
         div.appendChild(botao);
     }
 }
-
-function reiniciar() {
-    window.location.reload();
-}

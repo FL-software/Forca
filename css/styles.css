@@ -1,0 +1,123 @@
+#banner {
+    width: 100%;
+    background-color: #241ccb;
+    display: flex;
+}
+
+#banner > img {
+    width: 150px;
+}
+
+h1, p {
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #e6e1b6;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+#re {
+    width: 100px;
+    height: 50px;
+    margin: 10px auto;
+    border-radius: 2px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: #fff;
+    border: 4px solid #58207e;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Consolas', Arial, Helvetica, sans-serif;
+}
+
+.flex-container-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.flex-container-2-2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.flex-container-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 20px;
+    color: #58207e;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #DC1F27;
+    width: 40px;
+    margin: 5px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    width: 35px;
+    padding: 10px 0;
+    background-color: #00698C;
+    color: #FFFFFF;
+    border: 1px solid #00698C;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #06a7ac;
+}
+
+button.novo-bt {
+    width: auto;
+    padding: 10px;
+}
+
+.certa, .certa:hover {
+    background: green;
+    border: 1px solid green;
+    cursor: inherit;
+}
+
+.errada, .errada:hover {
+    background: red;
+    border: 1px solid red;
+    cursor: inherit;
+}
